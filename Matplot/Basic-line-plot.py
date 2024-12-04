@@ -9,7 +9,7 @@ data = {
 
 df = pd.DataFrame(data)
 ax = df.plot(x='Year', y='Sales', kind='line', marker='o', title='Sales and Profit Over Years')
-df.plot(x='Year', y='Profit', kind='line', marker='s', ax=ax, secondary_y=True)
+df.plot(x='Year', y='Profit', kind='line', marker='s', ax=ax, secondary_y=True) #plots basic line graph
 ax.set_ylabel('Sales')
 ax.right_ax.set_ylabel('Profit')
 ax.grid(True)
