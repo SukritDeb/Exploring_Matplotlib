@@ -2,8 +2,6 @@ from scipy.stats import norm
 import matplotlib.pyplot as plt
 import numpy as np
 
-plt.rcdefaults()
-
 values = [12, 55, 4, 22, 104]
 colors = ['r', 'g', 'b', 'c', 'm']
 explode = [0, 0, 0.2, 0, 0]
