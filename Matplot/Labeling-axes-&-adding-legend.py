@@ -14,5 +14,5 @@ plt.xlabel('Greebles') #Labeling x axis
 plt.ylabel('Probability') #Labeling y axis
 plt.plot(x, norm.pdf(x), 'b-')
 plt.plot(x, norm.pdf(x, 1.0, 0.5), 'r:')
-plt.legend(['Sneetches', 'Gacks'], loc=4)
+plt.legend(['Sneetches', 'Gacks'], loc=4) #adding legends
 plt.show()
