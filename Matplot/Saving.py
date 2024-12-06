@@ -8,4 +8,4 @@ plt.plot(x, norm.pdf(x))
 plt.plot(x, norm.pdf(x, 1.0, 0.5))
 plt.show()
 
-plt.savefig('MyPlot.png', format='png')
+plt.savefig('MyPlot.png', format='png') #saves the file
