@@ -6,5 +6,5 @@ plt.imshow(data, cmap='viridis', interpolation='nearest')
 plt.colorbar()
 plt.xlabel('X-axis Label')
 plt.ylabel('Y-axis Label')
-plt.title('Heatmap')
+plt.title('Heatmap') #plots heatmap
 plt.show()
