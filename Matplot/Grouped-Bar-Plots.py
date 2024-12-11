@@ -9,7 +9,7 @@ data = {
 
 df = pd.DataFrame(data)
 pivot_df = df.pivot(index='Nation', columns='Category', values='Sales')
-pivot_df.plot(kind='bar', stacked=False)
+pivot_df.plot(kind='bar', stacked=False) #plots the graph
 plt.title('Sales by Nation and Category')
 plt.xlabel('Nation')
 plt.ylabel('Sales')
