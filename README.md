@@ -1,2 +1,2 @@
 # Exploring_Matplotlib
-Gonna drop smol matplotlib activities
+Gonna drop smol matplotlib activities :)
